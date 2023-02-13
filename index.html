@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Meu portifólio</title>
+</head>
+
+<body>
+
+
+
+    <header class="cabecalho">
+
+        <a href="index.html"><img src="assets/logo_transparent.png" width="200" alt="logo" class="logo"></a>
+
+        <div class="menu-toggle">
+            <span class="toggle"> <img src="assets/menu.png" width="30" alt="sandwich"> </span>
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="menu">
+            <a class="item" href="#resumo2">Sobre</a>
+            <a class="item" href="#habilidades">Habilidades</a>
+            <a class="item" href="#projetos">Projetos</a>
+            <a class="item" href="contato.html">Contato</a>
+            <a class="item" href="#topo">Topo</a>
+        </nav>
+
+    </header>
+
+
+
+
+    <section id="topo" class="banner">
+        <h1 class="mega-tittle" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine">Welcome!</h1>
+        <p id="text"> Web developer in the constant development...</p>
+    </section>
+
+
+
+
+    <main class="principal">
+
+        <section class="resumo" id="resumo2">
+
+            <div class="apresentacao" data-aos="fade-right">
+                <img src="assets/PHOTO-2022-07-14-14-55-42.jpg" alt="apresentacao" class="img-apresentacao">
+            </div>
+
+            <div class="texto" data-aos="fade-right">
+
+                <h1 class="tittle">Abelardo Andrade</h1>
+                <h3 class="sub-tittle">Sobre mim</h3>
+                <p id="text-bio">Sou um desenvolvedor front-end em desenvolvimento, estudante persistente no assunto
+                    tecnologia, procurando estar sempre atualizado, buscando novas ideias rompendo as barreiras do
+                    conhecimento. <br> Atualmente cursando Engenharia da Computação, busco uma oportunidade como
+                    desenvolvedor, já que sou apaixonado por códigos, meu desejo é trabalhar neste ramo por amor e
+                    dedicação a algo que inspira a minha sede por conhecimento. <br>
+                    Nesta Landing Page você irá encontrar os meus trabalhos, contato e meu <a class="link"
+                        href="https://github.com AbelardoAndrade" target="_blank"><abbr title="GitHub">GitHub</abbr></a>
+                    onde disponibilizo todos os meus códigos.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <section id="habilidades" class="banner2" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"></section>
+
+    <h3 class="tittle-languages" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"> <img
+            src="assets/github.png" alt="git" width="90"> Minhas Habilidades<img src="assets/github.png" alt="git"
+            width="90"></h3>
+
+
+    <section class="languages-tecnology" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <img src="assets/Cornmanthe3rd-Plex-Other-html-5.512.png" alt="HTML" class="logo-tech">
+        <img src="assets/Martz90-Hex-Css-3.512.png" alt="CSS" class="logo-tech">
+        <img src="assets/js.png" alt="JS" class="logo-tech">
+    </section>
+
+
+    <span id="projetos" data-aos="fade-right"> <img src="assets/github.png" alt="git" width="90"> Meus Projetos <img
+            src="assets/github.png" alt="git" width="90"></span>
+
+
+    <section class="previa-projetos">
+
+        <div class="cards" data-aos="flip-right">
+
+            <a id="project01"  href="https://abelardoandrade.github.io/four-card-feature-section-master/" target="_blank">
+                <span id="project01" data-aos="flip-right">
+                    <div class="content-card">
+                        <span class="tittle-projetos">Projeto 01</span>
+                        <p id="text-pj">- Dasafio do FrontEndMentor Cards</p>
+                    </div>
+                    <img class="img-project01" src="assets/project01.png" alt="project01">
+                </span>
+            </a>
+
+            <a id="project02" href="https://abelardoandrade.github.io/news-homepage/" target="_blank">
+                <span id="project02" data-aos="flip-right">
+                    <div class="content-card">
+                        <span class="tittle-projetos">Projeto 02</span>
+                        <p id="text-pj">- Desafio do FrontEndMentor Landing Page</p>
+                    </div>
+                    <img src="assets/project02.png" alt="project02" class="img-project02">
+                </span>
+            </a>
+
+            <a id="project03" href="https://abelardoandrade.github.io/semaforo/" target="_blank">
+                <span id="project03" data-aos="flip-right">
+                    <div class="content-card">
+                        <span class="tittle-projetos">Projeto 03</span>
+                        <p id="text-pj">- Projeto Semáforo Educação de trânsito</p>
+                    </div>
+                    <img src="assets/project03.png" alt="project03" class="img-project03">
+                </span>
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+    <footer class="rodape">
+        Abelardo Andrade 2023 &copy;
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init(
+        );
+
+    </script>
+</body>
+
+</html>
